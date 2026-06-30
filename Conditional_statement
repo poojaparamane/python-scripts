@@ -1,0 +1,215 @@
+# a=40
+# if a>=30:
+#    print("A is greater than 30")
+# else:
+#    print("A is neither greater nor equal to 30")
+
+
+# age = int(input("Enter your age: "))
+
+# # Check voting eligibility
+# if age >= 18:
+#     print("You are eligible to vote.")
+# else:
+#     print("You are NOT eligible to vote.")
+
+# a = 10
+# b = 27
+# c = 6
+
+# if a >= b and a >= c:
+#     greatest = a
+# elif b >= a and b >= c:
+#     greatest = b
+# else:
+#     greatest = c
+
+# print("The greatest number is:", greatest)
+
+
+
+# number = int(input("Enter the number "))
+
+# if number % 3 == 0 or number % 4 == 0:
+#     print("8 is divisible by either 3 or 4.")
+# else:
+#     print("8 is NOT divisible by 3 or 4.")
+
+
+# number = 8
+# if number % 3 ==0 and number % 4==0:
+#     print (" 8 is divisible by both")
+
+# elif number % 3 ==0:
+
+
+# for i in range (1,11):
+#     print(i,end=" ")
+# print("")
+
+
+# num = int(input("Enter a number: "))
+
+# for i in range(1, 11):
+#     print( num * i)
+
+
+# a = "476765"
+# for i in a:
+#     print(i, end =" ")
+# print(" ")
+
+# num = int(input("Enter a number: "))
+
+# count = 0
+# n = abs(num) 
+
+# while n > 0:
+#     n = n // 10
+#     count += 1
+
+# # if number is 0
+# if num == 0:
+#     count = 1
+
+# print("Total digits:", count)
+
+
+# a='pooja'
+# b=27
+
+# print(f'My name is {a} and age is {b}')
+# for i in a:
+#     print(i, end= " ")
+
+# text = "Hello World"
+# print(text.upper())
+# print(text.replace("World", "python"))
+
+# a = [12, 12.4, "Uncodemy" ,True]
+
+# print(a[1])
+# print(a[2][3])
+
+# numbers = [1,2,3,4,5]
+# print(numbers[1:4])
+# numbers.sort()
+# print(numbers)
+# numbers.reverse()
+# print(numbers)
+
+# a = [12, 12.4, "Uncodemy", True, 23, 35, 56 , 99]
+# print(a[1:4])
+# print(a[: :])
+# print(a[::-1])
+# print(a[::3])
+# print(len[a])
+
+
+# list = [10, 20, 30, 40, 50]
+
+# # 1. Access the third element (index 2)
+# third_element = list[2]
+# print("Third element:",{third_element})
+
+# # 2. Print the total number of items
+# length = len(list)
+# print("List length:", {length})
+
+# # 3. Check if the list is empty
+# if len(list) == 0:
+#     print("The list is empty")
+# else:
+#     print("The list is not empty")
+
+
+#string manipulation
+
+a = [100, 50, 400, 500]
+a[1]= 200
+print(a)
+
+a.append(600)
+print(a)
+
+a.insert(3, 300)
+print(a)
+
+a.remove(600)
+print(a)
+
+a.pop(0)
+print(a)
+
+print(sum(a))
+
+print(max(a))
+print(min(a))
+
+even = 0
+odd = 0
+
+for num in a:
+    if num % 2 == 0:
+        even += 1
+    else:
+        odd +=1
+
+# print(even)
+# print(odd)
+
+
+# rev = [1,2,3,4,5]
+# rev.reverse()
+# print(rev)
+
+# Tuples-----------------
+
+a=(3,46,"pooja",True)
+print(a[3])
+
+a=(2,)
+print(type(a))
+
+a=(2,7,8)
+b= a * 3
+print(b)
+
+a=(1,2,3)
+b=(3,4,5)
+print(a+b)
+
+a=(1,2,3,4)
+print(a[1:3])
+
+print(a[::-1])
+
+# conversion
+h=("h","o","inthf")
+x=" ".join(h)
+print(x)
+
+#counting 
+a=(1,2,3,1)
+b=a.count(1)
+print(b)
+
+#Tuple unpacking
+a=(1,2,3,5,6)
+b,c,d,e, f= a
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+
+#swap Trick
+a =(1,2,3,"hi")
+b=(4,5,6,"hello")
+a,b = b,a
+print(a,b)
+
+#nested tuple
+a =((1,3),("a","b","c"),(6.0,7.9))
+print(a[0][0])
+print(a[1][2])
